@@ -4,10 +4,6 @@ This is a tower defense game that is mostly based on glitch the game artwork. I 
 
 #TODO
 
-Animação crescendo preço quando não puder pagar Do I need it?
-
-Adicionar uma animação na splash screen
-
 Unlock levels system
 
 Internationalization
