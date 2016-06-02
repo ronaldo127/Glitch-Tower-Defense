@@ -6,7 +6,7 @@ public class PlayerPrefsManager : MonoBehaviour {
 
     const string MASTER_VOLUME_KEY = "MASTER_VOLUME";
 	const string DIFFICULTY_KEY = "DIFFICULTY";
-	const string LEVEL_KEY = "LEVEL_UNLOCKED_";
+	const string UNLOCK_LEVEL_KEY = "LEVEL_UNLOCK";
     const string LOST_LEVEL_KEY = "LOST_LEVEL";
 
     public static void SetMasterVolume(float volume)
@@ -35,26 +35,35 @@ public class PlayerPrefsManager : MonoBehaviour {
 
     public static void UnlockLevel(int level)
     {
-        if (level<SceneManager.sceneCount)
+        if (PlayerPrefs.HasKey(UNLOCK_LEVEL_KEY))
         {
-            PlayerPrefs.SetInt(LEVEL_KEY+level, 1);
-        } else
+            if (!IsLevelUnlocked(level))
+            {
+                PlayerPrefs.SetInt(UNLOCK_LEVEL_KEY, level);
+            }
+        }
+        else
         {
-            Debug.LogError(level.ToString() + " is a invalid level!");
+            PlayerPrefs.SetInt(UNLOCK_LEVEL_KEY, level);
         }
     }
 
     public static bool IsLevelUnlocked(int level)
     {
-        if (level < SceneManager.sceneCount) { 
-            return PlayerPrefs.GetInt(LEVEL_KEY + level)==1;
-        }
-        else
-        {
-            Debug.LogError(level.ToString() + " is a invalid level!");
-        }
+        if (level == 1) return true;
+        if (PlayerPrefs.HasKey(UNLOCK_LEVEL_KEY))
+            return level <= PlayerPrefs.GetInt(UNLOCK_LEVEL_KEY);
+
         return false;
     }
+    public static int MaxLevelUnlocked()
+    {
+        if (PlayerPrefs.HasKey(UNLOCK_LEVEL_KEY))
+            return PlayerPrefs.GetInt(UNLOCK_LEVEL_KEY);
+
+        return 1;
+    }
+
     public static void SetDifficulty(float diff)
     {
         if (diff >= 1f && diff <= 3f) { 
