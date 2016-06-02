@@ -13,13 +13,20 @@ public class WinCondition : MonoBehaviour {
 	private Slider slider;
 	private bool hasWon;
 	private GameObject winText;
+    private int currentLevel;
 
 	// Use this for initialization
 	void Start () {
 		slider = GetComponent<Slider>();
 		FindWinLabel ();
 		hasWon = false;
-	}
+        string levelText = transform.parent.FindChild("Level indicator").GetComponent<Text>().text;
+        string[] temp = levelText.Split(' ');
+        if (temp.Length > 1)
+            currentLevel = int.Parse(temp[1]);
+        else
+            currentLevel = 1;
+    }
 
 	void FindWinLabel ()
 	{
@@ -46,6 +53,7 @@ public class WinCondition : MonoBehaviour {
 		if (winText) winText.SetActive(true);
 		MusicPlayer.PlayAudio(winSound);
 		Invoke("LoadNextLevel", winSound.length);
+        PlayerPrefsManager.UnlockLevel(currentLevel+1);
 	}
 
 	private void DestroyActors ()

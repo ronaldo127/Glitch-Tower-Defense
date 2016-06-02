@@ -158,7 +158,7 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: F:/gtd.keystore
+  AndroidKeystoreName: G:/gtd.keystore
   AndroidKeyaliasName: glitch tower defense
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
