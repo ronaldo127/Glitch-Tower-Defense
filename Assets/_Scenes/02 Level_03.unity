@@ -262,27 +262,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11438096, guid: 3e70ed0bca852bd45a5d73f4b917afc2, type: 2}
       propertyPath: startTime
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 11437988, guid: 3e70ed0bca852bd45a5d73f4b917afc2, type: 2}
       propertyPath: spawnTime
-      value: 14
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11493120, guid: 3e70ed0bca852bd45a5d73f4b917afc2, type: 2}
       propertyPath: spawnTime
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 11423314, guid: 3e70ed0bca852bd45a5d73f4b917afc2, type: 2}
       propertyPath: spawnTime
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 11438096, guid: 3e70ed0bca852bd45a5d73f4b917afc2, type: 2}
       propertyPath: spawnTime
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 11403482, guid: 3e70ed0bca852bd45a5d73f4b917afc2, type: 2}
       propertyPath: spawnTime
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 101964, guid: 3e70ed0bca852bd45a5d73f4b917afc2, type: 2}
       propertyPath: m_TagString
@@ -400,15 +400,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11413100, guid: f928abb02f95186448d69ce90ab65197, type: 2}
       propertyPath: m_Color.r
-      value: 0.058823526
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11413100, guid: f928abb02f95186448d69ce90ab65197, type: 2}
       propertyPath: m_Color.g
-      value: 0.4765055
+      value: 0.89490515
       objectReference: {fileID: 0}
     - target: {fileID: 11413100, guid: f928abb02f95186448d69ce90ab65197, type: 2}
       propertyPath: m_Color.b
-      value: 1
+      value: 0.4705882
       objectReference: {fileID: 0}
     - target: {fileID: 11449382, guid: f928abb02f95186448d69ce90ab65197, type: 2}
       propertyPath: m_Text
