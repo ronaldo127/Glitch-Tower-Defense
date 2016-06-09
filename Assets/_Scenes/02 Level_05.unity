@@ -697,11 +697,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11468114, guid: f928abb02f95186448d69ce90ab65197, type: 2}
       propertyPath: m_Text
-      value: You Won Level 2!!!
+      value: You Won Level 5!!!
       objectReference: {fileID: 0}
     - target: {fileID: 11449382, guid: f928abb02f95186448d69ce90ab65197, type: 2}
       propertyPath: m_Text
-      value: Level 2
+      value: Level 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f928abb02f95186448d69ce90ab65197, type: 2}

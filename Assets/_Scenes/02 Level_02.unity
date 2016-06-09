@@ -406,6 +406,30 @@ Prefab:
       propertyPath: m_Color.b
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11468114, guid: f928abb02f95186448d69ce90ab65197, type: 2}
+      propertyPath: m_Text
+      value: You Won Level 2!!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 22484476, guid: f928abb02f95186448d69ce90ab65197, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 22428464, guid: f928abb02f95186448d69ce90ab65197, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 22408532, guid: f928abb02f95186448d69ce90ab65197, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 22422852, guid: f928abb02f95186448d69ce90ab65197, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11449382, guid: f928abb02f95186448d69ce90ab65197, type: 2}
+      propertyPath: m_Text
+      value: Level 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f928abb02f95186448d69ce90ab65197, type: 2}
   m_IsPrefabParent: 0
