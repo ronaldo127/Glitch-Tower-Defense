@@ -272,7 +272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e932f5871d896d442ae9c0dcd8d33c09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cost: 25
+  cost: 40
 --- !u!114 &11446920
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -338,7 +338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19b2232029e17984b975b4336942877f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthPoints: 30
+  healthPoints: 15
 --- !u!114 &11479180
 MonoBehaviour:
   m_ObjectHideFlags: 1
