@@ -4,23 +4,15 @@ This is a tower defense game that is mostly based on glitch the game artwork. I 
 
 #TODO
 
-Unlock levels system
-
 Internationalization
 
 Analytics
-
-Fazer tutorial do jogo
 
 fix: No LG L3 Optimus que testei é possível clicar no menu errado pela proximidade dos itens e falta de espaço na tela.
 
 UX: E os números no GUI superior durante o jogo ficam ilegíveis nesse aparelho.
 
-Novos levels
-
 Adicionar caranguejo dançando na borda
 
 Otario and rock bug.
-
-Reuse more flow buttons
 
