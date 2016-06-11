@@ -735,19 +735,35 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22492560, guid: f928abb02f95186448d69ce90ab65197, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22402294, guid: f928abb02f95186448d69ce90ab65197, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11468114, guid: f928abb02f95186448d69ce90ab65197, type: 2}
       propertyPath: m_Text
-      value: You Won Level 4!!!
+      value: You Won Level 10!!!
       objectReference: {fileID: 0}
     - target: {fileID: 11449382, guid: f928abb02f95186448d69ce90ab65197, type: 2}
       propertyPath: m_Text
-      value: Level 4
+      value: Level 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 11468114, guid: f928abb02f95186448d69ce90ab65197, type: 2}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22473694, guid: f928abb02f95186448d69ce90ab65197, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 1160
+      objectReference: {fileID: 0}
+    - target: {fileID: 22473694, guid: f928abb02f95186448d69ce90ab65197, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 144.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 22473694, guid: f928abb02f95186448d69ce90ab65197, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 169.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f928abb02f95186448d69ce90ab65197, type: 2}
