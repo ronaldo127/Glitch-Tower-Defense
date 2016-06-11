@@ -508,11 +508,11 @@ Prefab:
     - target: {fileID: 11425870, guid: 987ec16430fc21f438937c807cf93d16, type: 2}
       propertyPath: musicChangeArray.Array.data[12]
       value: 
-      objectReference: {fileID: 8300000, guid: ce56434df859e475ebf2cb970b554b91, type: 3}
+      objectReference: {fileID: 8300000, guid: caef3048b7ee34690b330ed6629da3c4, type: 3}
     - target: {fileID: 11425870, guid: 987ec16430fc21f438937c807cf93d16, type: 2}
       propertyPath: musicChangeArray.Array.data[13]
       value: 
-      objectReference: {fileID: 8300000, guid: ce56434df859e475ebf2cb970b554b91, type: 3}
+      objectReference: {fileID: 8300000, guid: caef3048b7ee34690b330ed6629da3c4, type: 3}
     - target: {fileID: 11425870, guid: 987ec16430fc21f438937c807cf93d16, type: 2}
       propertyPath: musicChangeArray.Array.data[14]
       value: 
@@ -520,11 +520,11 @@ Prefab:
     - target: {fileID: 11425870, guid: 987ec16430fc21f438937c807cf93d16, type: 2}
       propertyPath: musicChangeArray.Array.data[15]
       value: 
-      objectReference: {fileID: 8300000, guid: ce56434df859e475ebf2cb970b554b91, type: 3}
+      objectReference: {fileID: 8300000, guid: 25c40e1bb35fb3b46ad62e6796239975, type: 3}
     - target: {fileID: 11425870, guid: 987ec16430fc21f438937c807cf93d16, type: 2}
       propertyPath: musicChangeArray.Array.data[16]
       value: 
-      objectReference: {fileID: 8300000, guid: ce56434df859e475ebf2cb970b554b91, type: 3}
+      objectReference: {fileID: 8300000, guid: caef3048b7ee34690b330ed6629da3c4, type: 3}
     - target: {fileID: 11425870, guid: 987ec16430fc21f438937c807cf93d16, type: 2}
       propertyPath: musicChangeArray.Array.data[17]
       value: 
